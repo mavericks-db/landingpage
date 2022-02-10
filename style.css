@@ -1,0 +1,40 @@
+body {
+margin: 0;
+    border: 0;
+    padding: 0;
+    min-width: 1000px;
+    
+}
+
+.container1 {
+    background-color: #1f2937;
+    color: #C9CEC9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 1000px;
+}
+
+.headerlogo {
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+.mainsec1 {
+    background-color: #1f2937;
+    color: #C9CEC9;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
