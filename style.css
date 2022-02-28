@@ -1,40 +1,75 @@
-body {
-margin: 0;
-    border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    min-width: 1000px;
+}
+
+.headerContainer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    color: white;
     
-}
-
-.container1 {
-    background-color: #1f2937;
-    color: #C9CEC9;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    min-width: 1000px;
+    
+    margin: 0 auto;
 }
 
-.headerlogo {
-    flex-shrink: 0;
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 100px;
 }
 
-ul {
-    list-style-type: none;
+.headerLinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 100px;
 }
 
 li {
     display: inline;
-    padding: 10px;
-    flex-shrink: 0;
-    flex-wrap: nowrap;
+    padding: 0 10px;
 }
-.mainsec1 {
-    background-color: #1f2937;
-    color: #C9CEC9;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+.secHeaderContainer {
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.subSection1 {
+    background-color: #1F2937;
+    color: white;
+    margin-left: 100px;
+    width: 400px;
+}
+
+.subSection2 {
+    background-color: grey;
+    color: white;
+    
+    padding: 75px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.heroMainText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.heroSecText {
+    font-size: 18px;
+    color: #e5e7eb;
 }
