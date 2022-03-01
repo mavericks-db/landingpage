@@ -155,7 +155,9 @@ ul {
     background-color: #3882f6;
     color: white;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 120px;
     border-radius: 10px;
 }
