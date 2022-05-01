@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/The_Odin_Project-e3b261)
 
-# Sign-up Form
+# Landing Page
 
 > This is creating an entire web page from a design provided by The Odin Project.
 
